@@ -17,7 +17,7 @@ resource "aws_key_pair" "my_keypair" {
 
 # Create a security group with inbound rules
 resource "aws_security_group" "example_security_group" {
-  name = "my-sg" # Specify the desired security group name
+  name = "my-sg1" # Specify the desired security group name
 
   # Ingress rules
   ingress {
