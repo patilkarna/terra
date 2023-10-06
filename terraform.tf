@@ -4,6 +4,6 @@
 # }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "terraform-s3-bucket"
+  bucket = "terraform-s3-bucket-sagar"
   acl    = "private"  # You can adjust the ACL as needed
 }
