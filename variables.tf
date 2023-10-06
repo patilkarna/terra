@@ -1,9 +1,7 @@
-variable "username" {
-    type = string
-    default = "sagar"
+variable "aws_access_key" {
+  description = "AKIA5QYHS3IMOJMTWHUD"
 }
 
-variable "age" {
-    type = number
-    default = 34
+variable "aws_secret_key" {
+  description = "JDnOuG1ZFnGcLTT/6DHNrM26RqNHab1eLDtneD1I"
 }
