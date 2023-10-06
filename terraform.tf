@@ -41,7 +41,7 @@ resource "aws_security_group" "example_security_group" {
 resource "aws_instance" "example_instance" {
   ami           = "ami-053b0d53c279acc90" # Replace with your desired AMI
   instance_type = "t2.micro"             # Replace with your desired instance type
-  key_name      = aws_key_pair.example_keypair.key_name # Reference the key pair
+  key_name      = aws_key_pair.my_keypair.key_name # Reference the key pair
   security_groups = [aws_security_group.example_security_group.name] # Reference the security group
 
   # (Optional) Additional configuration for your instance
