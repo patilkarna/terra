@@ -7,9 +7,7 @@
 #   bucket = "terraform-s3-bucket-sagar"
 #   acl    = "private"  # You can adjust the ACL as needed
 # }
-provider "aws" {
-  region = "us-east-1" # Replace with your desired AWS region
-}
+
 
 # Create an AWS key pair
 resource "aws_key_pair" "my_keypair" {
