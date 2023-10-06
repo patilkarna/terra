@@ -1,3 +1,7 @@
 variable "username" {
   
 }
+
+variable "age" {
+  
+}
